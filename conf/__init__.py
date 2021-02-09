@@ -10,5 +10,3 @@ See the License for the specific language governing permissions and limitations 
 """
 __author__ = u"蓝鲸智云"
 __copyright__ = "Copyright © 2012-2017 Tencent BlueKing. All Rights Reserved."
-import pymysql
-pymysql.install_as_MySQLdb()
