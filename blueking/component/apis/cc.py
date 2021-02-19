@@ -8,11 +8,6 @@ class CollectionsCC(object):
     def __init__(self, client):
         self.client = client
 
-        self.add_host_lock = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/add_host_lock/',
-            description=u'新加主机锁'
-        )
         self.add_host_to_resource = ComponentAPI(
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/add_host_to_resource/',
@@ -32,11 +27,6 @@ class CollectionsCC(object):
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/batch_update_inst/',
             description=u'批量更新对象实例'
-        )
-        self.bind_process_module = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/bind_process_module/',
-            description=u'绑定进程到模块'
         )
         self.bind_role_privilege = ComponentAPI(
             client=self.client, method='POST',
@@ -108,11 +98,6 @@ class CollectionsCC(object):
             path='/api/c/compapi{bk_api_ver}/cc/delete_host/',
             description=u'删除主机'
         )
-        self.delete_host_lock = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/delete_host_lock/',
-            description=u'删除主机锁'
-        )
         self.delete_inst = ComponentAPI(
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/delete_inst/',
@@ -133,11 +118,6 @@ class CollectionsCC(object):
             path='/api/c/compapi{bk_api_ver}/cc/delete_object_attribute/',
             description=u'删除对象模型属性'
         )
-        self.delete_process_module_bind = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/delete_process_module_bind/',
-            description=u'解绑进程模块'
-        )
         self.delete_set = ComponentAPI(
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/delete_set/',
@@ -147,16 +127,6 @@ class CollectionsCC(object):
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/delete_user_group/',
             description=u'删除用户分组'
-        )
-        self.find_host_by_module = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/find_host_by_module/',
-            description=u'根据模块查询主机'
-        )
-        self.get_biz_internal_module = ComponentAPI(
-            client=self.client, method='GET',
-            path='/api/c/compapi{bk_api_ver}/cc/get_biz_internal_module/',
-            description=u'查询业务的空闲机和故障机模块'
         )
         self.get_custom_query_data = ComponentAPI(
             client=self.client, method='GET',
@@ -173,20 +143,10 @@ class CollectionsCC(object):
             path='/api/c/compapi{bk_api_ver}/cc/get_host_base_info/',
             description=u'获取主机详情'
         )
-        self.get_mainline_object_topo = ComponentAPI(
-            client=self.client, method='GET',
-            path='/api/c/compapi{bk_api_ver}/cc/get_mainline_object_topo/',
-            description=u'查询主线模型的业务拓扑'
-        )
         self.get_operation_log = ComponentAPI(
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/get_operation_log/',
             description=u'获取操作日志'
-        )
-        self.get_process_bind_module = ComponentAPI(
-            client=self.client, method='GET',
-            path='/api/c/compapi{bk_api_ver}/cc/get_process_bind_module/',
-            description=u'查询进程绑定模块'
         )
         self.get_role_privilege = ComponentAPI(
             client=self.client, method='GET',
@@ -227,11 +187,6 @@ class CollectionsCC(object):
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/search_host/',
             description=u'根据条件查询主机'
-        )
-        self.search_host_lock = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/search_host_lock/',
-            description=u'查询主机锁'
         )
         self.search_inst = ComponentAPI(
             client=self.client, method='POST',
@@ -543,11 +498,6 @@ class CollectionsCC(object):
             path='/api/c/compapi{bk_api_ver}/cc/get_plat_id/',
             description=u'查询子网列表'
         )
-        self.get_proc_config_instance_status = ComponentAPI(
-            client=self.client, method='GET',
-            path='/api/c/compapi{bk_api_ver}/cc/get_proc_config_instance_status/',
-            description=u'获取刷新进程实例状态'
-        )
         self.get_process_port_by_app_id = ComponentAPI(
             client=self.client, method='GET',
             path='/api/c/compapi{bk_api_ver}/cc/get_process_port_by_app_id/',
@@ -612,11 +562,6 @@ class CollectionsCC(object):
             client=self.client, method='POST',
             path='/api/c/compapi{bk_api_ver}/cc/update_module_property/',
             description=u'修改模块属性'
-        )
-        self.update_proc_config_instance = ComponentAPI(
-            client=self.client, method='POST',
-            path='/api/c/compapi{bk_api_ver}/cc/update_proc_config_instance/',
-            description=u'刷新进程配置实例'
         )
         self.update_set_property = ComponentAPI(
             client=self.client, method='POST',

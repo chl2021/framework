@@ -1,0 +1,26 @@
+
+dpython:S1192<"MDefine a constant instead of duplicating this literal u'"><a href="' 3 times.(øî¹'
+wpython:S117"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈýÿÿÿÿ
+rpython:S117"[Rename this local variable "__M_locals" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï÷Çî
+python:S1178"jRename this local variable "__M_locals_builtin_stored" to match the regular expression ^[_a-z][a-z0-9_]*$.(É¾»
+rpython:S117$"[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Bpython:S1481"*Remove the unused local variable "APP_ID".(£€‡µ
+Kpython:S1481".Remove the unused local variable "__M_caller".(”íèÈýÿÿÿÿ
+@python:S5603"(Remove this unused function declaration.(‘¥Í¤
+Epython:S5603"(Remove this unused function declaration.(ñÏÜêùÿÿÿÿ
+Epython:S5603!"(Remove this unused function declaration.(ÒóÛúùÿÿÿÿ
+wpython:S117p"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈýÿÿÿÿ
+rpython:S117t"[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Kpython:S1481p".Remove the unused local variable "__M_caller".(”íèÈýÿÿÿÿ
+Fpython:S1481t".Remove the unused local variable "__M_writer".(äÁË•
+Epython:S5603r"(Remove this unused function declaration.(ñÏÜêùÿÿÿÿ
+wpython:S117{"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈýÿÿÿÿ
+rpython:S117"[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Kpython:S1481{".Remove the unused local variable "__M_caller".(”íèÈýÿÿÿÿ
+Fpython:S1481".Remove the unused local variable "__M_writer".(äÁË•
+Epython:S5603}"(Remove this unused function declaration.(ÒóÛúùÿÿÿÿ
+xpython:S117†"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈýÿÿÿÿ
+spython:S117Ž"[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Lpython:S1481†".Remove the unused local variable "__M_caller".(”íèÈýÿÿÿÿ
+Apython:S5603‰"(Remove this unused function declaration.(‘¥Í¤
+7python:S125©"Remove this commented out code.(…Óµ•

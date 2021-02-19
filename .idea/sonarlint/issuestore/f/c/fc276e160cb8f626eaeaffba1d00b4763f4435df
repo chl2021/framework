@@ -1,0 +1,13 @@
+
+xpython:S1186"[Add a nested comment explaining why this function is empty, or complete the implementation.(¢Ã‹şÿÿÿÿ
+wpython:S117"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈıÿÿÿÿ
+rpython:S117"[Rename this local variable "__M_locals" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï÷Çî
+rpython:S117""[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Kpython:S1481".Remove the unused local variable "__M_caller".(”íèÈıÿÿÿÿ
+Hpython:S1481!"0Remove the unused local variable "BK_PAAS_HOST".(²ô¶â
+Epython:S5603"(Remove this unused function declaration.(ñÏÜêùÿÿÿÿ
+wpython:S117/"[Rename this local variable "__M_caller" to match the regular expression ^[_a-z][a-z0-9_]*$.(”íèÈıÿÿÿÿ
+rpython:S1174"[Rename this local variable "__M_writer" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÁË•
+Kpython:S1481/".Remove the unused local variable "__M_caller".(”íèÈıÿÿÿÿ
+Epython:S56031"(Remove this unused function declaration.(ñÏÜêùÿÿÿÿ
+6python:S125="Remove this commented out code.(…Óµ•
